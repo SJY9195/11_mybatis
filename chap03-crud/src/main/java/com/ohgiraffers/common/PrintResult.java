@@ -5,7 +5,6 @@ package com.ohgiraffers.common;
 import com.ohgiraffers.dto.MenuDTO;
 
 import java.util.List;
-import java.util.Map;
 
 public class PrintResult {
     public void printMenuList(List<MenuDTO> menuList) {
@@ -39,7 +38,6 @@ public class PrintResult {
         }
         System.out.println(message);
     }
-
 
 }
 
